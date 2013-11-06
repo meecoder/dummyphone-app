@@ -1,0 +1,12 @@
+A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X	Y	Z
+Y	Z	A	B	C	D	E	F	G	H	I	J	K	L	M	N	O	P	Q	R	S	T	U	V	W	X
+
+To encode go from top to bottom. To decode go from bottom to top. 
+
+Dummy Letters:
+“Random letter not in code” means a letter you make up that is not part of the message, “Real letter” means a coded letter in the message.
+When encoding:
+Real letter	Random letter not in code	Real letter	Random letter not in code	Random letter not in code
+
+When decoding:
+Turn code into groups of 5 letters, the last one can have less. For every group get rid of the 2nd, 4th, and 5th letters, and for the last one get rid of whichever ones are there -for example, for a 3-letter last group get rid of the 2nd , for a 4-letter last group get rid of the 2nd and 4th. Then decode.
