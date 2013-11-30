@@ -3,7 +3,7 @@ from encode import encode
 from decode import decode
 
 def go():
-	test = input("Press 1 for encoding and 2 for decoding.")
+	test = input("Press 1 for encoding and 2 for decoding, then press Enter. ")
 	
 	if(test == "1"):
 		encode()

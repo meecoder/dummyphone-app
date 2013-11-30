@@ -5,7 +5,7 @@ def decode():
 	"h": "j", "i": "k", "j": "l", "k": "m", "l": "n", "m": "o", "n": "p", "o": "q",
 	"p": "r", "q": "s", "r": "t", "s": "u", "t": "v", "u": "w", "v": "x", "w": "y",
 	"x": "z", "y": "a", "z": "b"}
-	print("This is a work in progress. Does not support numbers.")
+	print("This is a work in progress.")
 	var = input("Please input the coded message to be decoded, and then press Enter. ")
 	vara = list(var.lower())
 	i = 0
