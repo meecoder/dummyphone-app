@@ -21,4 +21,22 @@ def encode():
 		else:
 			vara[i] = vara[i]
 			i += 1
-	print(''.join(vara))
+	pl = 0
+	dummyx = 0
+	dummyx2 = 0
+	varb = vara
+	for i in vara:
+		pl = pl + 1
+		if (dummyx = 1):
+			varb.insert(pl + 1, number2letter[randint(0, 26)])
+			pl = pl + 1
+			if (dummyx2 = 0):
+				dummyx2 = 1
+			if (dummyx2 = 1):
+				varb.insert(pl + 1, number2letter[randint(0, 26)])
+				dummyx2 = 0
+				pl = pl + 1
+			dummyx = 0
+		else:
+			dummyx = 1
+	print(''.join(varb))
